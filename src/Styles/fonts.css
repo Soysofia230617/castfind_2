@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./Fira_Sans/FiraSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('./Commissioner/static/Commissioner-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

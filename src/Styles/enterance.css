@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;  
+    margin: 0;     
+    padding: 0;    
+  }
+
+.enterance {
+    background-color: #303030;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+  }
+  
+  .container-ent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 200px; 
+    height: 200px;
+    padding: 20px; 
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+  
+  .enterance-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: calc(150% - 4px); 
+    margin-right: 9px;
+    height: 407px;
+  }
+  
+h6 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.form-group-ent {
+    font-family: 'Commisioner', sans-serif;
+    margin-bottom: 15px;
+    margin-right: 12px;
+  }
+  
+  input {
+    font-family: 'Commisioner', sans-serif;
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #F9F9F9;
+    background-color: hwb(0 95% 5%);
+    border-radius: 50spx;
+  }
+  
+.button-ent {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    background-color: #b4f87c;
+    border-radius: 20px;
+    border: none;
+    color: #303030;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.password {
+    width: 100%;
+    padding: -10px;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    color: #303030;
+    cursor: pointer;
+    margin-top: -5px;
+    font-family: 'Commisioner', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.password:hover {
+    color:#303030;
+} 
+.button-ent:hover {
+    background-color: #45a049;
+  }
+  
+.header_enterance {
+    display: flex;
+    align-items: center; 
+}
+
+.company-name {
+    margin-left: 28px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #303030;
+    font-size: 30px; 
+    font-weight: bold; 
+}
+
+.divider {
+    font-family: 'Fira Sans', sans-serif;
+    color: #303030;
+    font-size: 30px; 
+    font-weight: bold; 
+    margin: 0 10px; 
+}
+
+.slogan {
+    font-family: 'Commisioner', sans-serif;
+    color: #303030;
+    font-size: 10px; 
+    display: inline-block; 
+    text-align: left;
+    font-weight: lighter;
+    vertical-align: middle; 
+}
+.footer-text-ent {
+    position: absolute; 
+    font-family: 'Commisioner', sans-serif;
+    bottom: 0px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center; 
+    width: 100%; 
+    font-size: 8px;
+    color: #D2D2D2;
+}
+
+
+
