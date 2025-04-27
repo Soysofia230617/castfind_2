@@ -1,0 +1,291 @@
+/* src/Styles/Create_company.css */
+.create-organization {
+    padding: 20px;
+    padding-bottom: 120px;
+    background-color: #303030;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.title {
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: white;
+    font-family: 'Commisioner', sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    font-family: 'Commisioner', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-section {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.form-section h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    margin-bottom: -25px;
+    margin-left: 70px;
+}
+
+.form-section-city h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    margin-left: -5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.form-section-city h5 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    margin-left: -5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.input-with-icon-left {
+    display: flex;
+    align-items: center;
+}
+
+.input-with-icon-left .plus-button {
+    width: 60px;
+    height: 60px;
+    background-color: #F9F9F9;
+    border-radius: 50%; /* Делаем кнопку полностью круглой */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; /* Чтобы фото не выходило за пределы */
+}
+
+.input-with-icon-left .plus-button.photo-selected {
+    background-color: transparent; /* Убираем серый фон, если фото выбрано */
+}
+
+.input-with-icon-left .plus-button:hover {
+    background-color: #e0e0e0;
+}
+
+.input-with-icon-left .plus-button.photo-selected:hover {
+    background-color: transparent; /* Отключаем эффект hover, если фото выбрано */
+    opacity: 0.9; /* Лёгкое затемнение для эффекта hover */
+}
+
+.input-with-icon-left .plus-icon {
+    font-size: 30px;
+    color: #000;
+}
+
+.input-with-icon-left .clear-photo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.input-with-icon-left input {
+    max-width: 100px;
+    height: 25px;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 20px;
+    font-size: 8px;
+    line-height: 10px;
+    font-family: 'Commisioner', sans-serif;
+    color: #000;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.input-with-icon-left input::placeholder {
+    color: #D0D0D0;
+    font-family: 'Commisioner', sans-serif;
+    font-size: 8px;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+}
+
+.form-section input {
+    max-width: 100px;
+    height: 25px;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 8px;
+    line-height: 10px;
+    font-family: 'Commisioner', sans-serif;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.form-section-city input {
+    width: 300px;
+    height: 25px;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 8px;
+    line-height: 10px;
+    font-family: 'Commisioner', sans-serif;
+    color: #000;
+    background-color: #fff;
+    margin-left: -5px;
+}
+
+.form-section input::placeholder {
+    color: #D0D0D0;
+    font-family: 'Commisioner', sans-serif;
+    font-size: 8px;
+}
+
+.form-section-city input::placeholder {
+    color: #D0D0D0;
+    font-family: 'Commisioner', sans-serif;
+    font-size: 8px;
+}
+
+.specializations-list {
+    margin-bottom: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-left: -125px;
+}
+
+.specialization-item {
+    display: block;
+    font-family: 'Commisioner', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.specialization-item input {
+    margin-right: -125px;
+    vertical-align: middle;
+}
+
+.create-specialization {
+    margin-bottom: 20px;
+}
+
+.create-specialization-btn {
+    width: 200px;
+    height: 32px;
+    padding: 5px;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 20px;
+    color: #303030;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.create-specialization-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.section-divider {
+    width: 100%;
+    max-width: 400px;
+    height: 1px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+.action-buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    z-index: 10;
+}
+
+.back-btn {
+    width: 328px;
+    height: 32px;
+    padding: 5px;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 20px;
+    color: #303030;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.back-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.create-btn {
+    width: 328px;
+    height: 40px;
+    padding: 10px;
+    background-color: #B4F87C;
+    border: none;
+    border-radius: 20px;
+    color: #000;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.create-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
