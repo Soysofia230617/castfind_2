@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f8e7238c.css",
+    "main.js": "/static/js/main.343c1e30.js",
+    "static/media/FiraSans-Regular.ttf": "/static/media/FiraSans-Regular.f4eb295ecc2fb842d61c.ttf",
+    "static/media/Commissioner-Regular.ttf": "/static/media/Commissioner-Regular.5a4e8a555dc8e6dd8fba.ttf",
+    "static/media/Talant.png": "/static/media/Talant.56bd9132befab61eaf6e.png",
+    "static/media/Manager.png": "/static/media/Manager.a865e8a939396cce0ff6.png",
+    "static/media/back.jpg": "/static/media/back.39f3400df4d770f56866.jpg",
+    "static/media/Photographer.png": "/static/media/Photographer.49e5c2efc29b686d5eb9.png",
+    "static/media/IT.png": "/static/media/IT.f10aa410a7671b68fe0d.png",
+    "static/media/Marketing.png": "/static/media/Marketing.13aed8d50e07a8075690.png",
+    "index.html": "/index.html",
+    "main.f8e7238c.css.map": "/static/css/main.f8e7238c.css.map",
+    "main.343c1e30.js.map": "/static/js/main.343c1e30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8e7238c.css",
+    "static/js/main.343c1e30.js"
+  ]
+}
